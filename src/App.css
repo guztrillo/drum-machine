@@ -1,0 +1,189 @@
+@import url('https://fonts.googleapis.com/css2?family=Goldman:wght@700&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Oxygen&display=swap');
+
+* {
+     box-sizing: border-box;
+}
+body {
+     margin: auto;
+     background-color: lightgreen;
+     font-family: 'Oxygen', sans-serif;
+     text-align: center;
+}
+
+#drum-machine {
+     display: flex;
+     flex-direction: row-reverse;
+     justify-content: center;
+     align-items: center;
+     width: 100%;
+     margin: 15vh auto;
+     background-color:rgb(220, 243, 220);
+}
+#display {
+     width: 320px;
+     height: 320px;
+     display: flex;
+     flex-direction: column;
+     justify-content: space-around;
+     align-items: center;
+     font-family: 'Oxygen', sans-serif;
+}
+#drumPad {
+     display: grid;
+     grid-template-columns: repeat(3,1fr);
+     grid-template-rows: repeat(3,1fr);
+     place-self: center;
+     gap: 10px;
+     padding: 20px;
+     font-family: 'Goldman', cursive;
+     font-size: 120%;
+}
+
+.drum-pad {
+     background-color: #4CAF50;
+     width: 100px;
+     height: 100px;
+     place-self: center;
+     display: flex;
+     justify-content: center;
+     align-items: center;
+     cursor: pointer;
+     border-radius: 10px;
+     box-shadow: 3px 3px 5px rgba(0,0,0,0.25), 3px 3px 5px rgba(0,0,0,0.35);
+     user-select: none;
+}
+
+.press {
+     box-shadow: none;
+     background-color: rgb(79, 238, 87);
+}
+
+#text-display {
+     background-color: rgb(165, 165, 165);
+     width: 80%;
+     padding: 10px;
+     border-radius: 20px;
+     text-align: center;
+     user-select: none;
+     font-weight: bold;
+     height: 50px;
+     font-size: 20px;
+}
+/* volume slider */
+.slidecontainer {
+     width: 80%; /* Width of the outside container */
+   }
+   
+   /* The slider itself */
+   .slider {
+     -webkit-appearance: none;  /* Override default CSS styles */
+     appearance: none;
+     width: 100%; /* Full-width */
+     height: 15px; /* Specified 
+     height */
+     border-radius: 7.5px;  
+     background: rgb(165, 165, 165);; /* Grey background */
+     outline: none; /* Remove outline */
+     opacity: 0.7; /* Set transparency (for mouse-over effects on hover) */
+     -webkit-transition: .2s; /* 0.2 seconds transition on hover */
+     transition: opacity .2s;
+   }
+   
+   /* Mouse-over effects */
+   .slider:hover {
+     opacity: 1; /* Fully shown on mouse-over */
+   }
+   .slider::-webkit-slider-thumb {
+     -webkit-appearance: none; /* Override default look */
+     appearance: none;
+     width: 25px; /* Set a specific slider handle width */
+     height: 25px; /* Slider handle height */
+     border-radius: 50%;
+     background: #4CAF50; /* Green background */
+     cursor: pointer; /* Cursor on hover */
+   }
+/* Power Slider */
+.powerdiv {
+     display: flex;
+     flex-direction: column;
+     justify-content: center;
+     align-content: center;
+}
+.switch {
+     position: relative;
+     display: inline-block;
+     width: 60px;
+     height: 34px;
+}
+.switch input { 
+     opacity: 0;
+     width: 0;
+     height: 0;
+}
+.textpower{
+     text-align: center;
+     margin: 0;
+     font-weight: bold;
+     font-size: 100%;
+}
+.sliderPower {
+     position: absolute;
+     cursor: pointer;
+     top: 0;
+     left: 0;
+     right: 0;
+     bottom: 0;
+     background-color: #ccc;
+     -webkit-transition: .4s;
+     transition: .4s;
+}
+.sliderPower:before {
+     position: absolute;
+     content: "";
+     height: 26px;
+     width: 26px;
+     left: 4px;
+     bottom: 4px;
+     background-color: white;
+     -webkit-transition: .4s;
+     transition: .4s;
+   }
+input:checked + .sliderPower {
+     background-color:#4CAF50;
+}
+
+input:focus + .sliderPower {
+     box-shadow: 0 0 1px #4CAF50;
+}
+
+input:checked + .sliderPower:before {
+     -webkit-transform: translateX(26px);
+     -ms-transform: translateX(26px);
+     transform: translateX(26px);
+}
+.sliderPower.round {
+     border-radius: 34px;
+   }
+   
+   .sliderPower.round:before {
+     border-radius: 50%;
+   }
+
+@media only screen and (max-width: 730px) {
+     #drum-machine{
+          flex-direction: column-reverse;
+          margin: 0;
+          justify-content: space-between;
+          align-items: center;
+          width: 100%;
+     }
+     #display, #drumPad {
+          transform: scale(0.9);
+          padding: 0;
+     }
+     #display {
+          height: 200px;
+     }
+}
