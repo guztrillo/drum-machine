@@ -19,13 +19,12 @@ export default class Padkey extends Component{
           }
      }
      playSound() {
-          const audio = document.getElementById(this.props.clipTrigger);
-          audio.currentTime = 0;
-          this.shadow(audio);
-          audio.play();
+          this.audioBeep.currentTime = 0;
+          this.shadow(this.audioBeep);
+          this.audioBeep.play();
           let int = setInterval(() => {
-               if (audio.currentTime > 1) {
-                    audio.pause();
+               if (this.audioBeep.currentTime > 1) {
+                    this.audioBeep.pause();
                     clearInterval(int);
                }
           }, 100)
@@ -40,7 +39,7 @@ export default class Padkey extends Component{
      render() {
           return (
                <div className="drum-pad" id={this.props.clipID} onClick={this.playSound}>{this.props.clipTrigger}
-                   <audio className="clip" id={this.props.clipTrigger} src={this.props.clipUrl}/>
+                   <audio className="clip" id={this.props.clipTrigger} src={this.props.clipUrl} ref={(audio) => {this.audioBeep = audio;}}/>
                </div>
           )
      }
