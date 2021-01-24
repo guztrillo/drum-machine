@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/drum-machine/static/css/main.a023a862.chunk.css",
-    "main.js": "/drum-machine/static/js/main.2ccb1913.chunk.js",
-    "main.js.map": "/drum-machine/static/js/main.2ccb1913.chunk.js.map",
+    "main.js": "/drum-machine/static/js/main.7e5c454b.chunk.js",
+    "main.js.map": "/drum-machine/static/js/main.7e5c454b.chunk.js.map",
     "runtime-main.js": "/drum-machine/static/js/runtime-main.a7418ff8.js",
     "runtime-main.js.map": "/drum-machine/static/js/runtime-main.a7418ff8.js.map",
     "static/js/2.db356dac.chunk.js": "/drum-machine/static/js/2.db356dac.chunk.js",
@@ -12,20 +12,20 @@
     "index.html": "/drum-machine/index.html",
     "static/css/main.a023a862.chunk.css.map": "/drum-machine/static/css/main.a023a862.chunk.css.map",
     "static/js/2.db356dac.chunk.js.LICENSE.txt": "/drum-machine/static/js/2.db356dac.chunk.js.LICENSE.txt",
-    "static/media/akey.5ad88d39.mp3": "/drum-machine/static/media/akey.5ad88d39.mp3",
-    "static/media/ckey.a006c327.wav": "/drum-machine/static/media/ckey.a006c327.wav",
-    "static/media/dkey.4c4bd8e3.wav": "/drum-machine/static/media/dkey.4c4bd8e3.wav",
-    "static/media/ekey.e72cb5f2.wav": "/drum-machine/static/media/ekey.e72cb5f2.wav",
-    "static/media/exkey.4f016aea.mp3": "/drum-machine/static/media/exkey.4f016aea.mp3",
-    "static/media/qkey.60448e24.mp3": "/drum-machine/static/media/qkey.60448e24.mp3",
-    "static/media/skey.e263ac62.mp3": "/drum-machine/static/media/skey.e263ac62.mp3",
-    "static/media/wkey.dd41ad96.wav": "/drum-machine/static/media/wkey.dd41ad96.wav",
-    "static/media/zkey.8f396d3c.wav": "/drum-machine/static/media/zkey.8f396d3c.wav"
+    "static/media/akey.4f6ff04c.mp3": "/drum-machine/static/media/akey.4f6ff04c.mp3",
+    "static/media/ckey.ead2ab7e.wav": "/drum-machine/static/media/ckey.ead2ab7e.wav",
+    "static/media/dkey.720da370.wav": "/drum-machine/static/media/dkey.720da370.wav",
+    "static/media/ekey.53fa9346.wav": "/drum-machine/static/media/ekey.53fa9346.wav",
+    "static/media/exkey.097474b1.mp3": "/drum-machine/static/media/exkey.097474b1.mp3",
+    "static/media/qkey.3e5468dc.mp3": "/drum-machine/static/media/qkey.3e5468dc.mp3",
+    "static/media/skey.9ac02001.mp3": "/drum-machine/static/media/skey.9ac02001.mp3",
+    "static/media/wkey.cf7ccbfc.wav": "/drum-machine/static/media/wkey.cf7ccbfc.wav",
+    "static/media/zkey.1b8bd94f.wav": "/drum-machine/static/media/zkey.1b8bd94f.wav"
   },
   "entrypoints": [
     "static/js/runtime-main.a7418ff8.js",
     "static/js/2.db356dac.chunk.js",
     "static/css/main.a023a862.chunk.css",
-    "static/js/main.2ccb1913.chunk.js"
+    "static/js/main.7e5c454b.chunk.js"
   ]
 }
