@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/drum-machine/static/css/main.a023a862.chunk.css",
-    "main.js": "/drum-machine/static/js/main.68559460.chunk.js",
-    "main.js.map": "/drum-machine/static/js/main.68559460.chunk.js.map",
+    "main.js": "/drum-machine/static/js/main.2ccb1913.chunk.js",
+    "main.js.map": "/drum-machine/static/js/main.2ccb1913.chunk.js.map",
     "runtime-main.js": "/drum-machine/static/js/runtime-main.a7418ff8.js",
     "runtime-main.js.map": "/drum-machine/static/js/runtime-main.a7418ff8.js.map",
     "static/js/2.db356dac.chunk.js": "/drum-machine/static/js/2.db356dac.chunk.js",
@@ -11,12 +11,21 @@
     "static/js/3.63f0072b.chunk.js.map": "/drum-machine/static/js/3.63f0072b.chunk.js.map",
     "index.html": "/drum-machine/index.html",
     "static/css/main.a023a862.chunk.css.map": "/drum-machine/static/css/main.a023a862.chunk.css.map",
-    "static/js/2.db356dac.chunk.js.LICENSE.txt": "/drum-machine/static/js/2.db356dac.chunk.js.LICENSE.txt"
+    "static/js/2.db356dac.chunk.js.LICENSE.txt": "/drum-machine/static/js/2.db356dac.chunk.js.LICENSE.txt",
+    "static/media/akey.5ad88d39.mp3": "/drum-machine/static/media/akey.5ad88d39.mp3",
+    "static/media/ckey.a006c327.wav": "/drum-machine/static/media/ckey.a006c327.wav",
+    "static/media/dkey.4c4bd8e3.wav": "/drum-machine/static/media/dkey.4c4bd8e3.wav",
+    "static/media/ekey.e72cb5f2.wav": "/drum-machine/static/media/ekey.e72cb5f2.wav",
+    "static/media/exkey.4f016aea.mp3": "/drum-machine/static/media/exkey.4f016aea.mp3",
+    "static/media/qkey.60448e24.mp3": "/drum-machine/static/media/qkey.60448e24.mp3",
+    "static/media/skey.e263ac62.mp3": "/drum-machine/static/media/skey.e263ac62.mp3",
+    "static/media/wkey.dd41ad96.wav": "/drum-machine/static/media/wkey.dd41ad96.wav",
+    "static/media/zkey.8f396d3c.wav": "/drum-machine/static/media/zkey.8f396d3c.wav"
   },
   "entrypoints": [
     "static/js/runtime-main.a7418ff8.js",
     "static/js/2.db356dac.chunk.js",
     "static/css/main.a023a862.chunk.css",
-    "static/js/main.68559460.chunk.js"
+    "static/js/main.2ccb1913.chunk.js"
   ]
 }
