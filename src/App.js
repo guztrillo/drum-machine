@@ -8,55 +8,55 @@ const bankSounds = [
     keyCode: 81,
     keyTrigger: 'Q',
     id: 'Drum',
-    url: 'https://s3.amazonaws.com/freecodecamp/drums/Heater-1.mp3'
+    url: 'https://www.theremino.com/wp-content/uploads/files/ThreminoPiezoDrums_Recording%202.mp3'
   },
   {
     keyCode: 87,
     keyTrigger: 'W',
     id: 'Clap',
-    url: 'http://cd.textfiles.com/maxsounds/WAV/EFEITOS/CP.WAV'
+    url: 'https://cd.textfiles.com/maxsounds/WAV/EFEITOS/CP.WAV'
   },
   {
     keyCode: 69,
     keyTrigger: 'E',
     id: 'Bass-Hit',
-    url: 'http://patrickjohnston.org/ASM/ROM%20data/Super%20Metroid/BF%20stuff/Aveon%20Theme/2_Bass.wav'
+    url: 'https://patrickjohnston.org/ASM/ROM%20data/Super%20Metroid/BF%20stuff/Aveon%20Theme/2_Bass.wav'
   },
   {
     keyCode: 65,
     keyTrigger: 'A',
     id: 'Sci-Fi',
-    url: 'http://soundimage.org/wp-content/uploads/2016/04/Mech-Drone-11.mp3'
+    url: 'https://soundimage.org/wp-content/uploads/2016/04/Mech-Drone-11.mp3'
   },
   {
     keyCode: 83,
     keyTrigger: 'S',
     id: 'Bells-2',
-    url: 'http://tones.fuzzup.net/mp3/44.mp3'
+    url: 'https://tones.fuzzup.net/mp3/44.mp3'
   },
   {
     keyCode: 68,
     keyTrigger: 'D',
     id: 'Super-Saw',
-    url: 'http://www.hotdogstorm.com/tempsoundsolutions/supersaw%20samples/E3%20Super%20Saw.wav'
+    url: 'https://www.hotdogstorm.com/tempsoundsolutions/supersaw%20samples/E3%20Super%20Saw.wav'
   },
   {
     keyCode: 90,
     keyTrigger: 'Z',
     id: 'Wide-Vibrato',
-    url: 'http://100p100musique.free.fr/loops-synthe-wav/120%20vibrato%20strings.wav'
+    url: 'https://100p100musique.free.fr/loops-synthe-wav/120%20vibrato%20strings.wav'
   },
   {
     keyCode: 88,
     keyTrigger: 'X',
     id: 'Bells',
-    url: 'http://tones.fuzzup.net/mp3/45.mp3'
+    url: 'https://tones.fuzzup.net/mp3/45.mp3'
   },
   {
     keyCode: 67,
     keyTrigger: 'C',
     id: 'Crunch',
-    url: 'http://www.audiobulb.com/create/samples/perc_-_hi-crunch.wav'
+    url: 'https://www.audiobulb.com/create/samples/perc_-_hi-crunch.wav'
   }
 ]
 export default class App extends Component {
